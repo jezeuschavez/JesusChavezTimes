@@ -1,0 +1,93 @@
+/* General Page Layout */
+body {
+  font-family: Georgia, serif;
+  margin: 0;
+  padding: 0;
+  background: #fdfdfd;
+  color: #222;
+  line-height: 1.6;
+}
+
+/* Main Border - ONLY border around whole container */
+.main-border {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 6px solid #000; /* single black border */
+  border-radius: 12px;
+  background: #fff;
+}
+
+/* Header */
+.header-section {
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 20px 0;
+  background-color: #f7fbff;
+}
+
+.main-title {
+  font-size: 2.5rem;
+  margin-bottom: 2px; /* very tight spacing with date */
+}
+
+.date {
+  font-style: italic;
+  color: #555;
+  margin-top: 0;
+  margin-bottom: 8px; /* small gap before image */
+  font-size: 1.1em;
+}
+
+.publisher {
+  font-size: 1rem;
+  color: rgb(0, 0, 0);
+  margin-top: 8px;
+}
+
+.header-section img {
+  width: 500px; /* larger image */
+  height: auto;
+  display: block;
+  margin: 10px auto;
+  border-radius: 5px;
+}
+
+/* Article */
+.about-section {
+  padding: 20px;
+  background-color: #f7fbff;
+  max-width: 780px;
+  margin: 20px auto;
+}
+
+.about-section h2.inner-header {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 1em;
+  text-transform: uppercase;
+}
+
+/* Subheadings */
+.about-section h3 {
+  font-size: 1.3rem;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  border-bottom: 2px solid #000;
+  padding-bottom: 0.2em;
+  font-weight: bold;
+}
+
+/* Paragraphs */
+.about-section p {
+  margin-bottom: 1em;
+  text-align: justify;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 0.9rem;
+  color: #444;
+}
